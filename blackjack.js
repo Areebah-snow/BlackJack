@@ -10,10 +10,10 @@ let cardsEl = document.getElementById("cards-el")
 let cards = [firstCard, secondCard] //array 
 
 
-
+//Allowing the code to generate random numbers
 function getRandomCard(){
- 
-    return 5
+ let randomNumber = Math.floor(Math.random() * 13 ) + 1
+    return randomNumber
 }
 
 function startGame(){
