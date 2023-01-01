@@ -7,12 +7,17 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
-let playerName =  "Shima"
-let playerChips = 241
 
-//Display player Name and Chips 
+
+//Create an object for player data
+
+let player = {
+     name :  "Shima",
+     chips : 241
+}
+
 let playerEl = document.getElementById("player-el")
-playerEl.textContent = playerName + ": $" + playerChips
+playerEl.textContent = player.name + ": $" + player.chips
 
 
 //Allowing the code to generate random numbers
