@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 80%;
+            margin: auto; 
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        .blackjack-container{
+            text-align: center;
+            width: 50%;
+            margin: 30px auto;
+            height: 300px;
+            padding: 10px;
+            background-color: #016f32;
+            color: white;
+
+        }
+        h1{
+            color: goldenrod;
+        }
+        p{
+            font-weight: bold;
+        }
+        p#message-el{
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        button{
+            color:#016f32 ;
+            background-color: goldenrod;
+            width: 150px;
+            border: none;
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 5px 0px;
+            border-radius: 2px;
+            margin-bottom: 4px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="blackjack-container">
+        <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button onclick="startGame()">START GAME</button><br>
+        <button onclick="newCard()">NEW CARD</button>
+    </div>
+  
+    <script src="blackjack.js"></script>
+</body>
+</html>
