@@ -1,3 +1,10 @@
+//Create an object for player data
+let player = {
+   name : "Shima",
+   chips : 146,
+   
+}
+
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -8,16 +15,13 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 
+let playerEl =  document.getElementById("player-el")
+let chipEl = document.getElementById("chip-el")
+playerEl.textContent =  player.name + ": $" + player.chips
 
-//Create an object for player data
 
-let player = {
-     name :  "Shima",
-     chips : 241
-}
 
-let playerEl = document.getElementById("player-el")
-playerEl.textContent = player.name + ": $" + player.chips
+
 
 
 //Allowing the code to generate random numbers
