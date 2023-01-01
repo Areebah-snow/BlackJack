@@ -12,8 +12,8 @@ let cards = [firstCard, secondCard] //array
 
 
 function getRandomCard(){
-    let randomNum = 5
-    return randomNum
+ 
+    return 5
 }
 
 function startGame(){
